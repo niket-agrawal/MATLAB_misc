@@ -22,3 +22,12 @@ Output is :
 >> RMS_contrast = 0.0967
 >> cont_01 = 0.1933
 ```
+##### Test case contrast values and explainations:
+
+| S_No | File_Name | cont_rms | cont_01 |
+| --- | --- | --- | --- |
+| 1a | test_img1.jpg | 0.2251 | 
+| 1b | test_img2.jpg |
+| 1c | test_img3.jpg |
+| 1d | test_img4.jpg |
+| 1e | test_img5.jpg |
