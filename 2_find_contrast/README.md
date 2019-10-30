@@ -26,8 +26,18 @@ Output is :
 
 | S_No | File_Name | cont_rms | cont_01 |
 | --- | --- | --- | --- |
-| 1a | test_img1.jpg | 0.2251 | 
-| 1b | test_img2.jpg |
-| 1c | test_img3.jpg |
-| 1d | test_img4.jpg |
-| 1e | test_img5.jpg |
+| 1a | test_img1.jpg | 0.2251 | 0.4502 |
+| 1b | test_img2.jpg | 0.2547 | 0.5094 |
+| 1c | test_img3.jpg | 0.2726 | 0.5453 |
+| 1d | test_img4.jpg | 0.2890 | 0.5781 |
+| 1e | test_img5.jpg | 0.3099 | 0.6197 |
+| 2a | test_highc.jpg | 0.2946 | 0.5893 |
+| 2b | test_lowc.jpg | 0.2087 | 0.4174 |
+| 3a | test_cont_high.jpg | 0.4522 | 0.9045 |
+| 3b | test_cont_low.jpg | 0.0967 | 0.1933 |
+| 4a | test_imgmax.jpg | 0.5000 | 1.0000 |
+| 4b | test_imgmin.jpg | NaN | Nan |
+
+**Exaplainations :** 
+- RMS value of contrast = 0.5, represents maximum contrast (with value of cont_01 = 1.0)
+- RMS value of contrast = 0.0 or NaN, represents minimum contrast (with value of cont_01 = 0.0)
